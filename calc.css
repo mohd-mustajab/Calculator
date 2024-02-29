@@ -35,8 +35,8 @@ input::placeholder{
     height: 70vh;
 }
 .btn{
-    height: 10vh;
-    width: 10vh;
+    height: 75px;
+    width: 75px;
 margin: 10px;
 margin-left: 20px;
 border-radius: 50%;
@@ -52,13 +52,11 @@ cursor: pointer;
 }
 .operator{
     color: rgb(128, 98, 0);
-    font: bolder;
 }
 @media  (min-width:300px) and (max-width:600px){
-    .btn{
-        margin-left: 0px;
-        margin: 4px;
-        margin-top: 40px;
+  .btn{
+        margin-top: 45px;
+        margin-left: 7px;
     }
     .main{
         height:100vh;
