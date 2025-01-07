@@ -37,8 +37,6 @@ input::placeholder{
 .btn{
     height: 75px;
     width: 75px;
-margin: 10px;
-margin-left: 20px;
 border-radius: 50%;
 border: 2px solid black;
 font-size: 30px;
@@ -46,6 +44,10 @@ color: white;
 background: transparent;
 box-shadow: -8px 10px 5px rgba(255, 255, 255, 0.068);
 cursor: pointer;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
 }
 .equal{
     background-color: rgba(255, 0, 34, 0.795);
