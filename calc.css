@@ -33,10 +33,13 @@ input::placeholder{
 }
 .btns{
     height: 70vh;
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
 }
 .btn{
-    height: 75px;
-    width: 75px;
+ height: 75px;
+ width: 75px;
 border-radius: 50%;
 border: 2px solid black;
 font-size: 30px;
